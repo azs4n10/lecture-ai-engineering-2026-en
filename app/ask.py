@@ -12,6 +12,7 @@ or gives a plausible general answer (which differs from the actual course).
 
 import argparse
 import os
+import time
 
 from google import genai
 from google.genai import errors
@@ -26,11 +27,14 @@ def ask(question: str) -> str:
     client = genai.Client(api_key=get_api_key())
     temperature = os.getenv("AIE_TEMPERATURE")
     config = {"temperature": float(temperature)} if temperature else None
+    start = time.perf_counter()
     response = client.models.generate_content(model=MODEL, contents=question, config=config)
+    elapsed = time.perf_counter() - start
 
     usage = response.usage_metadata
     print(f"[temperature] {temperature or 'model default'}")
-    print(f"[tokens] input={usage.prompt_token_count} output={usage.candidates_token_count}\n")
+    print(f"[time] {elapsed:.2f} s")
+    print(f"[tokens] input={usage.prompt_token_count} output={usage.candidates_token_count} thinking={usage.thoughts_token_count or 0}\n")
 
     return response.text
 
