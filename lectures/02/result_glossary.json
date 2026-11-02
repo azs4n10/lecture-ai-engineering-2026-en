@@ -1,0 +1,553 @@
+{
+ "config": {
+  "base_model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "seed": 42,
+  "num_train_epochs": 5,
+  "warmup_steps": 6,
+  "lr": 0.0002,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "max_seq_len": 512,
+  "max_new_tokens": 120
+ },
+ "train_examples": 116,
+ "train_seconds": 108,
+ "final_loss": 0.2900941212972005,
+ "summary": {
+  "before": {
+   "glossary": "0/6",
+   "paraphrase": "1/6",
+   "absent": "0/4"
+  },
+  "search": {
+   "glossary": "3/6",
+   "paraphrase": "4/6",
+   "absent": "4/4"
+  },
+  "after": {
+   "glossary": "2/6",
+   "paraphrase": "2/6",
+   "absent": "0/4"
+  },
+  "after+search": {
+   "glossary": "5/6",
+   "paraphrase": "4/6",
+   "absent": "0/4"
+  }
+ },
+ "rows": [
+  {
+   "cond": "before",
+   "cat": "glossary",
+   "q": "What is lecNN-start tag?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "The **lecoNN-start tag** (often referred to as the **lecoNN** tag) is a specific nucleotide sequence found in the **lecoNN** protein. It is a short, conserved sequence located at the **N-terminus** (the beginning) of the protein.\n\nHere is a detailed breakdown of its function and significance:\n\n### 1. What is the lecoNN protein?\nThe lecoNN protein is a **transmembrane protein** that belongs to the **leco** family. These proteins are known for their ability to bind"
+  },
+  {
+   "cond": "before",
+   "cat": "glossary",
+   "q": "What is 3 homework levels?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "It seems like you are asking about a specific **homework assignment** or **project** that has three distinct levels, but the context is missing.\n\nCould you please provide more details about:\n1.  **The subject** (e.g., math, science, coding, history)?\n2.  **The specific project** or topic?\n3.  **The source material** (e.g., a textbook, a website, a course syllabus)?\n\nOnce you share that information, I can help you identify the three levels and guide you through the assignment."
+  },
+  {
+   "cond": "before",
+   "cat": "glossary",
+   "q": "What is answer.md?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "**Answer.md** is a standard, widely used **Markdown** file format. It is a text-based markup language designed for creating structured documents, especially in the context of **GitHub** and other version control systems.\n\nHere is a breakdown of what it is, how it works, and why it is important:\n\n### 1. Core Functionality\nAnswer.md is a simplified version of Markdown that is optimized for GitHub. It allows developers to write code, documentation, and configuration files directly within the repository.\n\n*   **Code Support**: It supports syntax highlighting for programming languages (like Python"
+  },
+  {
+   "cond": "before",
+   "cat": "glossary",
+   "q": "What is Default model?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "The term **\"Default model\"** is most commonly associated with **Machine Learning**, specifically in the context of **Hyperparameter Tuning** and **Model Selection**.\n\nIn the context of machine learning, a **default model** refers to the baseline model that is automatically selected when a model is trained without any specific hyperparameter tuning. It is the \"standard\" or \"out-of-the-box\" model that the model training process chooses to use.\n\nHere is a detailed breakdown of how it works and why it is important:\n\n### 1. The Core Concept\nWhen you train a model (e"
+  },
+  {
+   "cond": "before",
+   "cat": "glossary",
+   "q": "What is TestModel?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "**TestModel** is a software framework designed to create, maintain, and manage **test models** for software development. It is primarily used in **software testing** to ensure that software behaves as expected before it is deployed to production.\n\nHere is a breakdown of what it entails and how it works:\n\n### 1. Core Purpose\nThe primary goal of a TestModel is to represent the **expected behavior** of a software system. Instead of relying solely on unit tests (which test individual components) or integration tests (which test components working together), a TestModel simulates the entire system"
+  },
+  {
+   "cond": "before",
+   "cat": "glossary",
+   "q": "What is Pi?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "**Pi ($\\pi$)** is a mathematical constant that represents the ratio of a circle's circumference to its diameter. It is approximately equal to **3.14159**, but it is an irrational number, meaning it cannot be expressed exactly as a simple fraction and has an infinite, non-repeating decimal expansion.\n\nHere are the key aspects of Pi:\n\n*   **Definition**: It is the ratio of a circle's circumference ($C$) to its diameter ($d$), where $C = \\pi d$.\n*   **Approximation**: It is often approx"
+  },
+  {
+   "cond": "before",
+   "cat": "paraphrase",
+   "q": "Which tag should I branch from if I have not finished the previous lecture's exercises?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "When you have not finished the previous lecture's exercises, the standard practice in academic courses (especially those using platforms like Canvas, Blackboard, or LMS) is to branch from the **current lecture's** exercises.\n\nHere is why this is the recommended approach:\n\n1.  **Immediate Context**: The current lecture is the most relevant source of material for the specific topic you are currently studying. Branching from it ensures you are working directly on the content that defines the current session.\n2.  **Progress Tracking**: It allows you to see exactly where you stand in the current session"
+  },
+  {
+   "cond": "before",
+   "cat": "paraphrase",
+   "q": "In AIE2026, how many homework levels do I have to complete for each lecture?",
+   "ok": true,
+   "retrieved": null,
+   "answer": "In the **AIE2026** (Aerospace Engineering 2026) curriculum, the number of homework levels required per lecture is **1**.\n\nHere is the standard breakdown for the AIE2026 course structure:\n*   **Total Lectures:** 12\n*   **Homework Levels per Lecture:** 1\n\nThis means that for every single lecture session, you are expected to complete exactly one set of homework assignments. The course typically includes a mix of short-term assignments (e.g., quizzes, problem sets) and longer-term projects"
+  },
+  {
+   "cond": "before",
+   "cat": "paraphrase",
+   "q": "Where do I write my exercise and homework results in this course?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "Since I don't know the specific name of your course (e.g., a university course, a professional certification, or a self-paced online class), I cannot give you the exact URL or folder path.\n\nHowever, I can tell you **where to look** based on the most common scenarios. You can follow these steps to find your results:\n\n### 1. If you are taking a university or college course\nMost universities have a specific portal for this.\n*   **Check your Canvas, Blackboard, or LMS (Learning Management System):** Look for a section titled **\"Gr"
+  },
+  {
+   "cond": "before",
+   "cat": "paraphrase",
+   "q": "Which model does this course use by default for exercises?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "The course you are referring to is most likely **Introduction to Programming** (often taught by **Andrew Ng**).\n\nIn this specific course, the default model used for exercises is **Python**.\n\nHere are the key details regarding the default model:\n*   **Language**: Python.\n*   **Default Model**: **Python**.\n*   **Default Environment**: **Jupyter Notebook**.\n*   **Default IDE**: **VS Code**.\n\nIf you are looking at a specific course that uses a different language (like C++ or Java), please provide the course name or instructor so"
+  },
+  {
+   "cond": "before",
+   "cat": "paraphrase",
+   "q": "How can I test a Pydantic AI agent without an API key?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "You can test a Pydantic AI agent without an API key by using **local testing** or **mocking the API** in your own environment. Here are the main approaches:\n\n---\n\n### 1. **Use Local Testing with Mock Data**\nIf you have a local environment (e.g., Docker, local machine, or a containerized server), you can simulate API calls without an API key:\n\n#### Option A: Use a Local Server with Mock Responses\n1. Install a local server (e.g., `uvicorn`, `gunicorn`, or a custom Flask app"
+  },
+  {
+   "cond": "before",
+   "cat": "paraphrase",
+   "q": "Which terminal coding agent has only four built-in tools?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "The terminal coding agent that has only four built-in tools is **Tmux**.\n\nTmux is a powerful terminal multiplexer and a command-line tool for managing multiple terminal sessions. Its core functionality is built into the `tmux` command, which provides four primary tools:\n\n1.  **`tmux`**: The main command to start a new terminal session.\n2.  **`tmux`**: The command to quit a session.\n3.  **`tmux`**: The command to switch between sessions.\n4.  **`tmux`**: The"
+  },
+  {
+   "cond": "before",
+   "cat": "absent",
+   "q": "What is lec99-final tag?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "The **leco99-final tag** is a specific variant of the **leco99** (or **leco99**) protein found in certain bacteria, particularly *Bacillus subtilis* and *Bacillus cereus*.\n\nHere is a breakdown of its characteristics and significance:\n\n### 1. Origin and Function\n*   **Origin**: It is a recombinant protein produced by the *Bacillus subtilis* strain **leco99**.\n*   **Function**: Unlike the standard *leco99* protein, which is a"
+  },
+  {
+   "cond": "before",
+   "cat": "absent",
+   "q": "What is the bonus homework level in AIE2026?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "Based on the official announcements from **AIE2026** (the 2026 International Association of Engineers), the **bonus homework level** is **Level 1**.\n\nHere are the key details regarding this level:\n*   **Level 1**: This is the **standard** level for all students. It includes the core curriculum, practical courses, and the mandatory \"Bonus Homework\" (which is typically a 100-hour course designed to reinforce learning and prepare students for the final exam).\n*   **Level 2**: This is the **bonus**"
+  },
+  {
+   "cond": "before",
+   "cat": "absent",
+   "q": "What is glossary_fetch_all?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "**`glossary_fetch_all`** is a function used in **Python** to retrieve and display all entries from a specific dictionary or a list of dictionaries.\n\nIt is commonly used in the context of **JSON** or **XML** data structures, where a dictionary (or list of dictionaries) is often stored as a JSON string or XML string. The function allows you to iterate over the data and print each key-value pair.\n\n### How it works\nThe function typically takes a dictionary (or list of dictionaries) as its argument and prints the keys and values of the dictionary."
+  },
+  {
+   "cond": "before",
+   "cat": "absent",
+   "q": "What is the AIE2026 midterm exam?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "The **AIE2026 midterm exam** refers to the **AIESEC 2026 Midterm Exam**, which is scheduled to take place in **June 2026**.\n\nHere are the key details about this event:\n\n*   **Purpose**: The midterm exam is a crucial assessment for AIESEC members to evaluate their progress, identify areas for improvement, and prepare for the final year-long program. It is designed to help members stay on track and maintain their academic and professional goals.\n*   **Timing**: The exam is typically held in the **"
+  },
+  {
+   "cond": "search",
+   "cat": "glossary",
+   "q": "What is lecNN-start tag?",
+   "ok": false,
+   "retrieved": "lec-start-tag",
+   "answer": "A Git tag on the starting code for each lecture's exercises in the AIE2026 course repository (for example, lec03-start)."
+  },
+  {
+   "cond": "search",
+   "cat": "glossary",
+   "q": "What is 3 homework levels?",
+   "ok": true,
+   "retrieved": "homework-levels",
+   "answer": "Based on the glossary entry provided, the **3 homework levels** are:\n\n1.  **Basic (review lecture content)**\n2.  **Implementation (write your own code)**\n3.  **Advanced (research and experimentation)**\n\nCompleting any one level completes the homework for that specific lecture."
+  },
+  {
+   "cond": "search",
+   "cat": "glossary",
+   "q": "What is answer.md?",
+   "ok": false,
+   "retrieved": "answer-md",
+   "answer": "Based on the glossary entry provided, **answer.md** is the file used to record the results of exercises and homework for each AIE2026 lecture. It serves as a log containing the level attempted, what was done, the results obtained, and observations. Additionally, the entry notes that this file should be submitted by opening a Pull Request (PR) from a working branch to the main branch in your own fork."
+  },
+  {
+   "cond": "search",
+   "cat": "glossary",
+   "q": "What is Default model?",
+   "ok": false,
+   "retrieved": "llm",
+   "answer": "The glossary entry provided does not contain information regarding the \"Default model.\" It only defines the Large Language Model (LLM) and its capabilities. Therefore, it is not in the glossary."
+  },
+  {
+   "cond": "search",
+   "cat": "glossary",
+   "q": "What is TestModel?",
+   "ok": true,
+   "retrieved": "test-model",
+   "answer": "TestModel is a fake model included in Pydantic AI for testing. It calls tools and returns dummy answers without calling a real LLM. It lets you test agent wiring (whether tools are registered, called, and return results) without an API key or usage allowance."
+  },
+  {
+   "cond": "search",
+   "cat": "glossary",
+   "q": "What is Pi?",
+   "ok": true,
+   "retrieved": "pi",
+   "answer": "Pi is an open-source (MIT-licensed) coding agent that runs in the terminal. It has minimal features and a minimal system prompt, designed for users to extend. Version 1.0 was released in October 2026. Its npm package name is @earendil-works/pi-coding-agent."
+  },
+  {
+   "cond": "search",
+   "cat": "paraphrase",
+   "q": "Which tag should I branch from if I have not finished the previous lecture's exercises?",
+   "ok": true,
+   "retrieved": "lec-start-tag",
+   "answer": "lecNN-start"
+  },
+  {
+   "cond": "search",
+   "cat": "paraphrase",
+   "q": "In AIE2026, how many homework levels do I have to complete for each lecture?",
+   "ok": true,
+   "retrieved": "homework-levels",
+   "answer": "Based on the glossary entry provided, there are **three** homework levels for each lecture:\n1.  Basic (review lecture content)\n2.  Implementation (write your own code)\n3.  Advanced (research and experimentation)\n\nCompleting any one level completes the homework for that specific lecture."
+  },
+  {
+   "cond": "search",
+   "cat": "paraphrase",
+   "q": "Where do I write my exercise and homework results in this course?",
+   "ok": false,
+   "retrieved": "homework-levels",
+   "answer": "Based on the glossary entry provided, there is no specific mention of where the exercise and homework results are written. The entry only describes the **levels** of the homework (Basic, Implementation, and Advanced) and the **completion** of the work, but it does not detail the submission process or the location of the results.\n\nTherefore, it is not in the glossary."
+  },
+  {
+   "cond": "search",
+   "cat": "paraphrase",
+   "q": "Which model does this course use by default for exercises?",
+   "ok": true,
+   "retrieved": "default-model",
+   "answer": "The course uses the **gemini-3.5-flash-lite** model by default for exercises and homework."
+  },
+  {
+   "cond": "search",
+   "cat": "paraphrase",
+   "q": "How can I test a Pydantic AI agent without an API key?",
+   "ok": false,
+   "retrieved": "pydantic-ai",
+   "answer": "It is not in the glossary."
+  },
+  {
+   "cond": "search",
+   "cat": "paraphrase",
+   "q": "Which terminal coding agent has only four built-in tools?",
+   "ok": true,
+   "retrieved": "coding-agent",
+   "answer": "Based on the glossary entry provided, there is no mention of a specific terminal coding agent that has **only four** built-in tools. The entry describes a general category of \"Coding agent\" (an AI that autonomously carries out requested programming work) and lists examples like Claude Code, Copilot Agent mode, and Pi, but it does not specify the tool count for any of those agents.\n\nTherefore, it is not in the glossary."
+  },
+  {
+   "cond": "search",
+   "cat": "absent",
+   "q": "What is lec99-final tag?",
+   "ok": true,
+   "retrieved": "lec-start-tag",
+   "answer": "The glossary entry provided does not contain information about the `lec99-final` tag. It only defines the `lecNN-start` tag."
+  },
+  {
+   "cond": "search",
+   "cat": "absent",
+   "q": "What is the bonus homework level in AIE2026?",
+   "ok": true,
+   "retrieved": "homework-levels",
+   "answer": "Based on the glossary entry provided, there is no mention of a specific \"bonus\" homework level. The glossary only lists the three standard levels: \"Basic (review lecture content)\", \"Implementation (write your own code)\", and \"Advanced (research and experimentation)\".\n\nTherefore, it is not in the glossary."
+  },
+  {
+   "cond": "search",
+   "cat": "absent",
+   "q": "What is glossary_fetch_all?",
+   "ok": true,
+   "retrieved": null,
+   "answer": "It is not in the glossary."
+  },
+  {
+   "cond": "search",
+   "cat": "absent",
+   "q": "What is the AIE2026 midterm exam?",
+   "ok": true,
+   "retrieved": null,
+   "answer": "It is not in the glossary."
+  },
+  {
+   "cond": "after",
+   "cat": "glossary",
+   "q": "What is lecNN-start tag?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "A Git tag on the starting code for each lecture's exercises. For example, lec03-start is the starting code for lecture 03. In this course, it is located at https://github.com/University-ofTwente/lecture03-start."
+  },
+  {
+   "cond": "after",
+   "cat": "glossary",
+   "q": "What is 3 homework levels?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "The structure of the AIE2026 homework assignment. There are three levels: \"Basic (lecture content)\", \"Further reading\", and \"Exercise\". Each level has its own reading material and exercise set. In this course, level 1 is used for all homework."
+  },
+  {
+   "cond": "after",
+   "cat": "glossary",
+   "q": "What is answer.md?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "A file for documenting agent answers to user instructions. It tracks outputs across multiple calls, including reasoning and edge cases, and serves as a source of truth for evaluation and improvement."
+  },
+  {
+   "cond": "after",
+   "cat": "glossary",
+   "q": "What is Default model?",
+   "ok": true,
+   "retrieved": null,
+   "answer": "The standard model for AIE2026 exercises and homework is gemini-3.5-flash-lite, chosen with free-tier rate limits and stable course operation in mind. You may switch models with the AIE_MODEL environment variable or use your own API subscription."
+  },
+  {
+   "cond": "after",
+   "cat": "glossary",
+   "q": "What is TestModel?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "A mock object used to simulate database and file operations. It executes predetermined operations and returns predetermined results, allowing tests to verify logic without an actual database or files."
+  },
+  {
+   "cond": "after",
+   "cat": "glossary",
+   "q": "What is Pi?",
+   "ok": true,
+   "retrieved": null,
+   "answer": "An open-source coding agent that runs in the terminal. It has a simple program, a simple interface, and no installation or configuration required. Its main strengths are simplicity and open-source availability. Its main limitations are a limited feature set and a relatively small community. This course uses it as an introductory agent course."
+  },
+  {
+   "cond": "after",
+   "cat": "paraphrase",
+   "q": "Which tag should I branch from if I have not finished the previous lecture's exercises?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "git checkout base/master (the current working directory). This lets you start a new lecture's exercises from scratch without a fork."
+  },
+  {
+   "cond": "after",
+   "cat": "paraphrase",
+   "q": "In AIE2026, how many homework levels do I have to complete for each lecture?",
+   "ok": true,
+   "retrieved": null,
+   "answer": "There are 5 homework levels for each lecture. Complete one before moving to the next lecture. In AIE2026, you may complete multiple homework levels for one lecture."
+  },
+  {
+   "cond": "after",
+   "cat": "paraphrase",
+   "q": "Where do I write my exercise and homework results in this course?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "Submit your final course work as a GitHub account secret in your .gitignore file. Anyone pulling your repository cannot read or modify your homework or exercises. In this course, create a branch named homework for each exercise and submit a README and a results file in your home directory."
+  },
+  {
+   "cond": "after",
+   "cat": "paraphrase",
+   "q": "Which model does this course use by default for exercises?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "The standard LLM (Gemini 3.5 or Claude 3.5 Turbo on GitHub Codespaces). It has a free tier with usage limits and a progress report; charges exceed the limit after a certain number of uses."
+  },
+  {
+   "cond": "after",
+   "cat": "paraphrase",
+   "q": "How can I test a Pydantic AI agent without an API key?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "Use a mock server (for example, mock_server) to call the LLM without an API key. In app.py, register it as a tool with no arguments, and have mock_server call it. Then ask the agent questions to the mock server and receive human-informed answers."
+  },
+  {
+   "cond": "after",
+   "cat": "paraphrase",
+   "q": "Which terminal coding agent has only four built-in tools?",
+   "ok": true,
+   "retrieved": null,
+   "answer": "Cursor. It is known for having only four built-in tools (Code, Editor, Search, and Settings) and a relatively small feature set. Claude Desktop and Pydantic AI have more tools, and Pi has more than four built-in tools."
+  },
+  {
+   "cond": "after",
+   "cat": "absent",
+   "q": "What is lec99-final tag?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "The final tag for fetching the latest model output for each question in the Lecture 09 exercises. Used without an LLM call to read homework answers automatically."
+  },
+  {
+   "cond": "after",
+   "cat": "absent",
+   "q": "What is the bonus homework level in AIE2026?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "The final homework level for each lecture in the AIE2026 course schedule. It is determined by the lecture's difficulty and the level you have completed before it. In this course, it ranges from \"Beginner\" to \"Advanced\"."
+  },
+  {
+   "cond": "after",
+   "cat": "absent",
+   "q": "What is glossary_fetch_all?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "A function that fetches and returns all definition strings for a given glossary name. It is the main entry point for fetching a glossary. In this course, you can call it with a single argument, such as \"course01_glossary\"."
+  },
+  {
+   "cond": "after",
+   "cat": "absent",
+   "q": "What is the AIE2026 midterm exam?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "The final exam for the AIE2026 course. It covers lecture 26 material and is graded as 20% of the final grade. It is taken on the same day as the final exam."
+  },
+  {
+   "cond": "after+search",
+   "cat": "glossary",
+   "q": "What is lecNN-start tag?",
+   "ok": true,
+   "retrieved": "lec-start-tag",
+   "answer": "A Git tag on the starting code for each lecture's exercises (for example, lec03-start). Creating a branch from this tag lets you start the current lecture's exercises without finishing the previous one."
+  },
+  {
+   "cond": "after+search",
+   "cat": "glossary",
+   "q": "What is 3 homework levels?",
+   "ok": true,
+   "retrieved": "homework-levels",
+   "answer": "The structure of AIE2026 homework. There are three levels: \"Basic (review lecture content)\", \"Implementation (write your own code)\", and \"Advanced (research and experimentation)\". Completing any one level completes the homework for that lecture. As a rule, it is not graded."
+  },
+  {
+   "cond": "after+search",
+   "cat": "glossary",
+   "q": "What is answer.md?",
+   "ok": true,
+   "retrieved": "answer-md",
+   "answer": "The file for recording exercise and homework results for each AIE2026 lecture. Located at lectures/NN/answer.md. Record the level attempted, what you did, results, and observations, then submit by opening a PR from your working branch to main in your own fork."
+  },
+  {
+   "cond": "after+search",
+   "cat": "glossary",
+   "q": "What is Default model?",
+   "ok": false,
+   "retrieved": "llm",
+   "answer": "The model used for all homework and exercises. It is the same model used to read and write course materials. Its settings (temperature, maximum tokens, output language, and so on) are configured in the AIE2026 course settings."
+  },
+  {
+   "cond": "after+search",
+   "cat": "glossary",
+   "q": "What is TestModel?",
+   "ok": true,
+   "retrieved": "test-model",
+   "answer": "A fake model included in Pydantic AI for testing. It calls tools and returns dummy answers without calling a real LLM, allowing you to test agent wiring (tool registration, calling, and return results) without an API key or usage allowance."
+  },
+  {
+   "cond": "after+search",
+   "cat": "glossary",
+   "q": "What is Pi?",
+   "ok": true,
+   "retrieved": "pi",
+   "answer": "An open-source (MIT-licensed) coding agent that runs in the terminal. It has minimal features and a minimal system prompt, designed for users to extend. Version 1.0 was released in October 2026. Its npm package name is @earendil-works/pi-coding-agent."
+  },
+  {
+   "cond": "after+search",
+   "cat": "paraphrase",
+   "q": "Which tag should I branch from if I have not finished the previous lecture's exercises?",
+   "ok": true,
+   "retrieved": "lec-start-tag",
+   "answer": "lecNN-start"
+  },
+  {
+   "cond": "after+search",
+   "cat": "paraphrase",
+   "q": "In AIE2026, how many homework levels do I have to complete for each lecture?",
+   "ok": true,
+   "retrieved": "homework-levels",
+   "answer": "Three. There is one \"Basic\" level for each lecture, one \"Implementation\" level, and one \"Advanced\" level. Completing any one level completes the homework for that lecture. As a rule, it is not graded."
+  },
+  {
+   "cond": "after+search",
+   "cat": "paraphrase",
+   "q": "Where do I write my exercise and homework results in this course?",
+   "ok": false,
+   "retrieved": "homework-levels",
+   "answer": "In your own account's AIE2026 account settings. In the AIE2026 account settings, select your own course and select the level you are doing this homework for."
+  },
+  {
+   "cond": "after+search",
+   "cat": "paraphrase",
+   "q": "Which model does this course use by default for exercises?",
+   "ok": true,
+   "retrieved": "default-model",
+   "answer": "The standard model for AIE2026 exercises and homework is gemini-3.5-flash-lite, selected with free-tier rate limits and stable operation in mind. You may switch models with the AIE_MODEL environment variable or use your own API subscription."
+  },
+  {
+   "cond": "after+search",
+   "cat": "paraphrase",
+   "q": "How can I test a Pydantic AI agent without an API key?",
+   "ok": false,
+   "retrieved": "pydantic-ai",
+   "answer": "Use test models, such as Gemini test model. They call tools without an API key and return dummy answers so you can check behavior without calling an external service."
+  },
+  {
+   "cond": "after+search",
+   "cat": "paraphrase",
+   "q": "Which terminal coding agent has only four built-in tools?",
+   "ok": true,
+   "retrieved": "coding-agent",
+   "answer": "Pi. It has only four built-in tools (read file, write file, run command, and stop). Claude Code and Copilot Agent mode have more."
+  },
+  {
+   "cond": "after+search",
+   "cat": "absent",
+   "q": "What is lec99-final tag?",
+   "ok": false,
+   "retrieved": "lec-start-tag",
+   "answer": "A Git tag on the final code for each lecture's exercises in the AIE2026 course repository (for example, lec99-final). Even if you have not finished the previous lecture, creating a branch from this tag lets you start the current lecture's exercises."
+  },
+  {
+   "cond": "after+search",
+   "cat": "absent",
+   "q": "What is the bonus homework level in AIE2026?",
+   "ok": false,
+   "retrieved": "homework-levels",
+   "answer": "The final homework level, completed by reviewing lecture material and submitting a final project. It is not graded."
+  },
+  {
+   "cond": "after+search",
+   "cat": "absent",
+   "q": "What is glossary_fetch_all?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "A function that fetches and returns all glossary entries for a given course. It is called with course_id and fetch_all=True."
+  },
+  {
+   "cond": "after+search",
+   "cat": "absent",
+   "q": "What is the AIE2026 midterm exam?",
+   "ok": false,
+   "retrieved": null,
+   "answer": "The final exam for the AIE2026 course, taken in September. It covers all lecture material and exercises from the semester. It is graded according to a rubric, and failing it will result in a grade of zero for the course."
+  }
+ ]
+}
