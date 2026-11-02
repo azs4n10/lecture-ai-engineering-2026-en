@@ -37,6 +37,6 @@
 
 - Observations and questions:
   - Even with temperature 0, the 3 answers were not identical. For the course-specific question, 2 runs said "I do not know" and 1 run invented an answer. So temperature 0 does not make the output reproducible here, and it does not stop the model from making things up.
-  - Temperature 2.0 did not make the general answer worse in an obvious way. The difference between conditions was much smaller than the difference between questions: for the general term all 9 answers were correct, while for the course-specific question no answer was correct.
+  - Temperature 2.0 did not make the general answer worse in an obvious way. The difference between conditions was much smaller than the difference between questions: for the general term all 9 answers were correct, while for the course-specific question no answer gave the correct content (the "I do not know" answers were honest, but not useful).
   - The larger model (`gemini-3.5-flash`) never said "I do not know". It gave longer, more confident answers, and once named a source that has nothing to do with this course. A more capable model was not safer for questions outside its knowledge.
   - Question: why does temperature 0 still give different answers? I guess it comes from the serving side (for example, batching or non-deterministic GPU computation), but I have not checked this.
